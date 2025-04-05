@@ -1,6 +1,5 @@
 import { NextResponse, NextRequest } from "next/server";
 import FacultyModel from "./models/facultySchema";
-import StudentModel from "./models/studentSchema";
 
 export const GET = async (req, res) => {
   
